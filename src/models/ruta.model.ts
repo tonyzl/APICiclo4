@@ -22,10 +22,10 @@ export class Ruta extends Entity {
   destino: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  tiempo_estimado: number;
+  tiempo_estimado: string;
 
 
   constructor(data?: Partial<Ruta>) {

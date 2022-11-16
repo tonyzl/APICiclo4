@@ -40,10 +40,10 @@ export class Servicio extends Entity {
   nombre_conductor: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  dinero_recogido: number;
+  dinero_recogido: string;
 
   @property({
     type: 'string',
